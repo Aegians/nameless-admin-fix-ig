@@ -17,7 +17,7 @@
  end
  
  -- Notification library
- local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/Nameless-Admin-No-Byfron-Kick/main/notificationtest.lua"))();
+ local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/archive/main/notificationtest"))();
  local Notify = Notification.Notify;
 
  Notify({
@@ -629,12 +629,14 @@
  end)
  
  cmd.add({"executor"}, {"executor", "Very simple executor"}, function()
-	 loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/executor"))()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/archive/main/executor"))()
  end)
- 
- cmd.add({"scripthub"}, {"scripthub", "Thanks to scriptblox api"}, function()
+
+--[[ 
+cmd.add({"scripthub"}, {"scripthub", "Thanks to scriptblox api"}, function()
 	 loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/ScriptHub"))()
  end)
+--]]
  
  cmd.add({"stand"}, {"stand <player>", "Makes a player your stand"}, function(...)
 		   Username = (...)
@@ -746,7 +748,7 @@
  end)
  
  cmd.add({"plugins"}, {"plugins", "Check what kind of plugins you have, add plugins using a gui, delete a plugin."}, function()
-	 loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/NamelessAdminPlugin"))();
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/archive/main/NamelessAdminPlugin"))();
  end)
  
  cmd.add({"prefix"}, {"prefix <prefix>", "Changes the admin prefix"}, function(...)
@@ -2914,10 +2916,12 @@ print(Time)
  settings():GetService("RenderSettings").ShowBoundingBoxes = false
  end)
  
+--[[
  cmd.add({"punch"}, {"punch", "punch tool that flings"}, function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/punch",true))()
  end)
- 
+--]]
+
  cmd.add({"vfly", "vehiclefly"}, {"vehiclefly (vfly)", "be able to fly vehicles"}, function(...)
  FLYING = false
 	 cmdlp.Character.Humanoid.PlatformStand = false
@@ -3413,7 +3417,7 @@ print(Time)
  
  cmd.add({"vr", "clovr", "vrscript", "fevr"}, {"vr (clovr, vrscript, fevr)", "FE VR SCRIPT AKA CLOVR"}, function()
 	-- [[ should be patched ]] --
- loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/CloVR"))();
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/archive/main/CloVR"))();
  end)
  
  cmd.add({"flash"}, {"flash <player>", "Flashes the targets screen"}, function(...)
@@ -4400,7 +4404,7 @@ print(Time)
  
  });
 	
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/Comet"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/archive/main/Comet"))();
 			 end)
  
 			 cmd.add({"triggerbot", "tbot"}, {"triggerbot (tbot)", "Executes a script that automatically clicks the mouse when the mouse is on a player"}, function()
@@ -5931,7 +5935,7 @@ end
  
  cmd.add({"2016"}, {"2016", "2016 CORE GUI"}, function()
 	-- [[ PLAYERBOARD IS BUGGED BUT WILL TRY TO FIX. ]] --
- loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/2016MODE"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/archive/main/2016MODE"))()
  end)
  
  cmd.add({"removedn", "nodn", "nodpn"}, {"removedn (nodn, nodpn)", "Removes all display names"}, function()
@@ -7288,7 +7292,7 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
  
  
  cmd.add({"animspoofer", "animationspoofer", "spoofanim", "animspoof"}, {"animationspoofer (animspoof, spoofanim)", "Loads up an animation spoofer, spoofs animations that use rbxassetid"}, function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/AnimationSpoofer"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/Nameless-Admin-No-Byfron-Kick/main/AnimationSpoofer"))()
  end)
  
  cmd.add({"tooldance", "td"}, {"tooldance <mode> <size>", "Make your tools dance\nModes: tor/sph/inf/rng/whl/wht/voi"}, function(mode, size)
@@ -9216,7 +9220,7 @@ getChar().HumanoidRootPart.CFrame = target.Character.Humanoid.RootPart.CFrame
  end)
  
  cmd.add({"pp", "penis"}, {"penis (pp)", "benis :flushed:"}, function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/pp"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/Nameless-Admin-No-Byfron-Kick/main/pp"))()
  end)
  
  cmd.add({"stealaudio", "getaudio", "steal", "logaudio"}, {"stealaudio <player> (getaudio, logaudio, steal)", "Save all sounds a player is playing to a file  -Cyrus"}, function(p)
@@ -11958,7 +11962,7 @@ until glueloop == false
 				 end)
 				 
 								 cmd.add({"nameless"}, {"nameless", "Makes your hats visible but not your name or your body"}, function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/nameless"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/archive/main/nameless"))()
  end)
  
  
@@ -12205,11 +12209,11 @@ until glueloop == false
  end)
  
  cmd.add({"notepad"}, {"notepad", "notepad for making scripts / etc"}, function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Notepad"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/Nameless-Admin-No-Byfron-Kick/main/Notepad"))()
  end)
  
  cmd.add({"rc7"}, {"rc7", "RC7 Internal UI"}, function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/rc7"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/archive/main/rc7"))()
  end)
  
  cmd.add({"scriptviewer", "viewscripts"}, {"scriptviewer (viewscripts)", "Can view scripts made by 0866"}, function()
@@ -12773,7 +12777,8 @@ end)
  transparent = false
 	 x(transparent)
  end)
- 
+
+--[[
  cmd.add({"pastebinscraper", "pastebinscrape"}, {"pastebinscraper (pastebinscrape)", "Scrapes paste bin posts"}, function()
 	 
 	 
@@ -12792,6 +12797,7 @@ end)
 	 game:GetService("CoreGui").Scraper["Pastebin Scraper"].Content.Search.PlaceholderText = "Search for a post here..."
 	 game:GetService("CoreGui").Scraper["Pastebin Scraper"].Content.Search.BackgroundTransparency = 0.4	
  end)
+-]]
  
  cmd.add({"amongus", "amogus"}, {"amongus (amogus)", "among us in real life, sus sus."}, function()
 	 
@@ -13000,7 +13006,7 @@ end)
  end)
  
  cmd.add({"givehat", "givehatui"}, {"givehat (givehatui)", "Executes a hat giver gui check in console for hat names"}, function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/GiveHat"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/Nameless-Admin-No-Byfron-Kick/main/GiveHat"))()
  end)
  
  cmd.add({"fireproximityprompts", "fpp"}, {"fireproximityprompts (fpp)", "Fires every Touch Interest that's in workspace"}, function()
@@ -13547,7 +13553,7 @@ game.Players.LocalPlayer.CameraMode = "LockFirstPerson"
 	 end)
 
  cmd.add({"2016anims"}, {"2016anims", "2016 animations"}, function()
-	 loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/2016anims"))()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/archive/main/2016anims"))()
  end)
  
  cmd.add({"oganims"}, {"oganims", "Old animations from 2007"}, function()
@@ -13566,7 +13572,7 @@ game.Players.LocalPlayer.CameraMode = "LockFirstPerson"
  end)
  
  cmd.add({"fakechat"}, {"fakechat", "Fake a chat gui"}, function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/fakechat"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/archive/main/fakechat"))()
  end)
  
  cmd.add({"fpscap"}, {"fpscap <number>", "Sets the fps cap to whatever you want"}, function(...)
@@ -14577,7 +14583,7 @@ end)
  end)
  
  cmd.add({"httpspy"}, {"httspy", "HTTP Spy"}, function()
-	 loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/HttpSpy'))()
+	 loadstring(game:HttpGet('https://raw.githubusercontent.com/FD2Team/Nameless-Admin-No-Byfron-Kick/main/HttpSpy'))()
  end)
  
  cmd.add({"keystroke"}, {"keystroke", "Executes a keystroke ui script"}, function()
